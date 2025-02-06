@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", serif;
+  /* border: 1px solid red; */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+}
+.logo--img {
+  width: 10em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin: 0 2rem;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 1rem;
+}
+
+.navbar a:hover {
+  color: #6c63ff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+main h1 {
+  font-size: 3rem;
+}
+
+main p {
+  font-size: 1.5rem;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+}
+
+.banner--img {
+  width: 500px;
+}
+
+/* Cursos */
+.cursos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+}
+.cursos--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.curso {
+  width: 450px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.curso:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.curso--img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.curso--title {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.curso:hover {
+  color: #6c63ff;
+}
+
+.curso--description {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #19191a;
+  color: white;
+  padding: 1rem 2rem;
+}
