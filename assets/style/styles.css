@@ -15,7 +15,7 @@ header {
   padding: 1rem 5rem;
 }
 .logo--img {
-  width: 10em;
+  width: 11em;
 }
 
 .navbar {
@@ -36,6 +36,7 @@ header {
   color: black;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.2rem;
   margin: 0 1rem;
 }
 
@@ -70,9 +71,16 @@ main p {
 }
 
 .banner--img {
-  width: 500px;
+  width: 800px;
 }
-
+.banner--text {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
 /* Cursos */
 .cursos {
   display: flex;
@@ -122,14 +130,62 @@ main p {
   margin: 1rem 0;
 }
 
-.curso:hover {
+.curso:hover h3 {
   color: #6c63ff;
 }
 
 .curso--description {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 1rem 0;
 }
+
+.comentarios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+}
+.comentarios--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+}
+.comentario {
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.comentario:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.comentario--avatar {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.comentario--text {
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+
 /* Footer */
 
 footer {
