@@ -192,7 +192,32 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #19191a;
-  color: white;
   padding: 1rem 2rem;
+  margin-top: 2rem;
+  background-color: #f1f1f1;
+}
+.footer--text {
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.bi {
+  font-size: 1.2rem;
+  margin: 0 1rem;
+}
+
+.bi-facebook {
+  color: #3b5998;
+}
+.bi-twitter-x {
+  color: black;
+}
+.bi-instagram {
+  color: #c13584;
 }
